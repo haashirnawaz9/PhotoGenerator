@@ -1,0 +1,46 @@
+{
+  "name": "ai-photo-generator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.9.0",
+    "@huggingface/inference": "^2.8.1",
+    "@neondatabase/serverless": "^0.10.4",
+    "@radix-ui/react-slot": "^1.1.0",
+    "axios": "^1.7.9",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.38.0",
+    "lucide-react": "^0.468.0",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.8.4",
+    "next": "15.0.4",
+    "next-share": "^0.27.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "vercel": "^39.2.0"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.0.1",
+    "@types/node": "^20.17.9",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.30.0",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.4",
+    "postcss": "^8",
+    "prisma": "^6.0.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
