@@ -5,8 +5,8 @@ import { ClerkProvider } from "@clerk/nextjs";
 import Footer from "@/components/ui/footer";
 
 export const metadata: Metadata = {
-  title: "PhotoGenAI - Haashir Nawaz",
-  description: "PhotoGenAI - Generate a photo using AI technology.",
+  title: "PhotoGenerator",
+  description: "PhotoGenerator - Generate a photo.",
 };
 
 export default function RootLayout({
