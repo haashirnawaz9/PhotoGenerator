@@ -55,10 +55,10 @@ export default function ImageGeneratorPage() {
   return (
     <div className="mx-auto px-4 py-8 bg-bg min-h-screen bg-[#0e1f3c]">
       <h1 className="text-6xl font-heading text-center mb-2 text-text transform -rotate-2">
-        AI Photo Generator
+        Photo Generator
       </h1>
       <p className="text-center text-2xl mb-8 text-text transform rotate-1">
-        Transform your ideas into stunning images with AI
+        Transform your ideas into stunning images
       </p>
 
       <div className="max-w-2xl mx-auto">
