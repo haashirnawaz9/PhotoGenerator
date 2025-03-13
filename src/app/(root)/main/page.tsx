@@ -54,7 +54,7 @@ export default function ImageGeneratorPage() {
 
   return (
     <div className="mx-auto px-4 py-8 bg-bg min-h-screen bg-[#0e1f3c]">
-      <h1 className="text-6xl font-heading text-center mb-2 text-text transform -rotate-2">
+      <h1 className="text-6xl font-heading text-center mb-2 text-text transform -rotate-2 mt-12">
         Photo Generator
       </h1>
       <p className="text-center text-2xl mb-8 text-text transform rotate-1">
@@ -62,7 +62,7 @@ export default function ImageGeneratorPage() {
       </p>
 
       <div className="max-w-2xl mx-auto">
-        <Card className="mb-8 p-8 border-4 border-border shadow-light bg-[#3a5b94]">
+        <Card className="mb-8 p-8 border-4 border-border shadow-light bg-[#3a5b94] mt-12">
           <CardContent className="p-6 bg-main">
             <form onSubmit={handleSubmit} className="space-y-4">
               <Input

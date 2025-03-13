@@ -1,5 +1,6 @@
 // app/page.tsx
 import { Button } from '@/components/ui/button';
+import Footer from '@/components/ui/footer';
 import Link from 'next/link';
 
 export default function Home() {

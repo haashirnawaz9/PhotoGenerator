@@ -1,3 +1,4 @@
+import Footer from "@/components/ui/footer";
 import { ClerkLoaded } from "@clerk/nextjs";
 
 function DashboardLayout({ children }: { children: React.ReactNode }) {
@@ -7,6 +8,7 @@ function DashboardLayout({ children }: { children: React.ReactNode }) {
         <main className="flex-grow">
           {children}
         </main>
+        <Footer />
       </div>
     </ClerkLoaded>
   );
