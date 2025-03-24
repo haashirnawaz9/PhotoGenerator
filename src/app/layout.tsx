@@ -21,6 +21,7 @@ export default function RootLayout({
         <Header />
         {children}
       </body>
+      <Footer />
     </html>
     </ClerkProvider>
   );
