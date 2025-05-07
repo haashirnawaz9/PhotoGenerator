@@ -1,4 +1,3 @@
-import Footer from "@/components/ui/footer";
 import { ClerkLoaded } from "@clerk/nextjs";
 
 function DashboardLayout({ children }: { children: React.ReactNode }) {

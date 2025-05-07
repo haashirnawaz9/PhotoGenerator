@@ -16,12 +16,15 @@ export const checkUser = async () => {
         return loggedInUser;
     }
 
-    const newUser = await db.user.create({
-        data: {
-            clerkId: user.id,
-            name: `${user.firstName} ${user.lastName}`,
-            email: user.emailAddresses[0].emailAddress
-        }
-    });
+    const newUser = await db.user.upsert({
+        where: { email: user.emailAddresses[0].emailAddress },
+        update: {}, // or provide fields to update if needed
+        create: {
+          clerkId: user.id,
+          name: `${user.firstName} ${user.lastName}`,
+          email: user.emailAddresses[0].emailAddress,
+        },
+      });
+      
     return newUser;
 }
