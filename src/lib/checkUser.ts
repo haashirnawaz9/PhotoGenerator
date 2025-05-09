@@ -1,4 +1,3 @@
-
 import { currentUser } from "@clerk/nextjs/server";
 import db from "./db";
 
@@ -18,7 +17,7 @@ export const checkUser = async () => {
 
     const newUser = await db.user.upsert({
         where: { email: user.emailAddresses[0].emailAddress },
-        update: {}, // or provide fields to update if needed
+        update: {}, 
         create: {
           clerkId: user.id,
           name: `${user.firstName} ${user.lastName}`,
